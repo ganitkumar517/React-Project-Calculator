@@ -10,7 +10,7 @@ body {
   background-image: linear-gradient(red,white,yellow);
   display: grid;
   place-content: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "consolas", sans-serif;
   height: 100vh;
   font-size: 2rem;
 }
