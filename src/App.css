@@ -7,7 +7,10 @@
   -webkit-app-region: none;
 }
 body {
-  background-image: linear-gradient(red,white,yellow);
+  background-image: url(https://img.freepik.com/premium-vector/hand-drawn-mathematics-doodle-set-background-with-blue-lettering_160308-1713.jpg?w=2000);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
   display: grid;
   place-content: center;
   font-family: "consolas", sans-serif;
