@@ -1,6 +1,6 @@
 import "./App.css";
 import { useState, useEffect } from "react";
-import { NumberFormatBase } from "react-number-format";
+import { NumericFormat } from "react-number-format";
 function App() {
   const [preState, setPreState] = useState("");
   const [curState, setCurState] = useState("");
@@ -102,13 +102,13 @@ function App() {
       <div className='box2'>
         <div className='screen'>
           {input !== "" || input === "0" ? (
-            <NumberFormatBase
+            <NumericFormat
               value={input}
               displayType={"text"}
               thousandSeparator={true}
             />
           ) : (
-            <NumberFormatBase
+            <NumericFormat
               value={preState}
               displayType={"text"}
               thousandSeparator={true}
